@@ -1,0 +1,212 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.headersection{
+	background: url(../img/header.jpg) no-repeat center top;
+	padding-top:5px;
+	background-attachment:relative;
+	background-position:center center;
+	min-height:350px;
+	 color: white;
+
+}
+.headersection h1{
+margin-top: 30px;
+}
+.header img{
+	height:350px;
+}
+.text{
+	width:250px;
+	height:120px;
+	
+	
+	color:white;
+	margin-left:30px;
+	display:block;
+}
+.text h2{
+	font-size:20px;
+}
+.text p{
+	font-size:16px;
+}
+
+.navbar-default {
+  background-color:rgba(36,36,36,.6);
+  border: medium none;
+  margin-top:-55px;
+
+}
+.navbar {
+  border-radius:0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: lighter;
+  text-transform: capitalize;
+  
+  
+}
+.navbar-default .navbar-nav > li > a:hover {
+	text-decoration:underline;
+	color:#d8d0d0;
+	font-weight:bolder;
+}
+.blogsection{
+	background:gray;
+	margin-bottom:0px;
+	margin-top:-20px;
+	
+	
+}
+.postpara{
+   padding-top:100px;
+   
+}
+.postpara h3{}
+.postpara p{
+	font-size:14px;
+    font-family:tahoma;	
+}
+.postpara img{}
+.textsection{
+	background:gray;
+}
+.textbody{
+	padding-top:40px;
+
+}
+.textbody p{
+	padding:15px;
+}
+.buttonsection{
+	background:gray;
+}
+.buttonclass{
+	padding:15px;
+}
+
+.buttonclass h3{
+	font-size:22px;
+	font-family:tahoma;
+}
+.buttonclass p{
+	font-size:18px;
+	font-family:tahoma;
+}
+.button{
+	border-radius:0px;
+	
+	margin-top:30px;
+	margin-bottom:0px;
+	padding:10px 35px;
+	
+}
+.foot{
+	background:gray;
+	font-size:18px;
+	
+}
+.foot p{
+	margin-top:40px;
+}
+.bg{
+	background:rgba(0,0,0,.1);
+}
